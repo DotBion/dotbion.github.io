@@ -1,6 +1,11 @@
-# Planning and learning artifacts — local only, never in a PR
+# Planning and learning artifacts — local only, never in a PR.
+# This repo is PUBLIC. These files carry unshipped-issue notes, internal TODOs
+# and infrastructure detail that shouldn't be published under your name.
+# CLAUDE.md is read from disk at session start — git is never involved — so
+# ignoring it costs nothing but cross-machine sync.
 PLAN.md
 LEARNINGS.md
+CLAUDE.md
 notes/
 *.local.md
 *.scratch.md
@@ -11,8 +16,11 @@ notes/
 .dev.vars
 *.key
 
-# Local tooling config
-.claude/
+# Local tooling config — but .claude/skills/ IS committed (the run-portfolio
+# skill and its driver are project tooling, not local scratch).
+.claude/*
+!.claude/skills/
+.claude/skills/*/shots/
 
 # OS / editor cruft
 .DS_Store
