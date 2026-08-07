@@ -1,0 +1,26 @@
+# Planning and learning artifacts — local only, never in a PR
+PLAN.md
+LEARNINGS.md
+notes/
+*.local.md
+*.scratch.md
+
+# Secrets — never commit
+.env
+.env.*
+.dev.vars
+*.key
+
+# Local tooling config
+.claude/
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependencies / build output (if tooling is added later)
+node_modules/
+dist/
+.wrangler/
