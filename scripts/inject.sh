@@ -110,3 +110,33 @@ if grep -qF 'paste a job description' "$TARGET"; then
 else
   echo "  job-description claim already removed"
 fi
+
+# --- Add the data-handling notice -----------------------------------------
+#
+# Visitor messages are stored in D1 and sent to Google's Gemini API, whose free
+# tier may train on them. Nothing in the design says so. This appends a second
+# faint line under the existing "enter to send · …" hint row, matching its type
+# scale so it reads as chrome rather than a banner.
+#
+# The Worker's SYSTEM_PROMPT carries the same disclosure, so the bot answers
+# honestly when asked directly. This patch is the passive half — the half a
+# visitor sees without having to ask.
+#
+# Both strings are passed through the environment so perl's \Q quotes them
+# literally: the bundle stores its markup as an escaped JSON string, so these
+# contain literal backslash sequences (\" and /) that must not be
+# reinterpreted.
+NOTICE_ANCHOR='enter to send · shift+enter for a new line · K toggles<\u002Fdiv>'
+NOTICE_TEXT='messages are stored and sent to Google Gemini · avoid sharing anything sensitive'
+
+if grep -qF "$NOTICE_TEXT" "$TARGET"; then
+  echo "  data-handling notice already present"
+elif [ "$(grep -cF "$NOTICE_ANCHOR" "$TARGET")" -eq 1 ]; then
+  FROM="$NOTICE_ANCHOR" \
+  TO="${NOTICE_ANCHOR}\\n      <div style=\\\"padding: 0 20px 14px; font-size: 11px; color: var(--faint); font-family: var(--mono); line-height: 1.5;\\\">${NOTICE_TEXT}<\\u002Fdiv>" \
+    perl -0pi -e 's/\Q$ENV{FROM}\E/$ENV{TO}/' "$TARGET"
+  echo "  added the data-handling notice to the chat footer"
+else
+  echo "  WARNING: could not find a unique chat-footer hint row to patch." >&2
+  echo "           The data-handling notice was NOT added." >&2
+fi
