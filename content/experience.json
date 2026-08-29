@@ -4,7 +4,7 @@
     "company": "NYU IT",
     "badge": "Internship",
     "location": "New York, NY",
-    "role": "Software Engineering Intern",
+    "role": "Software Engineering (Data, ML)",
     "highlights": [
       "Designed fault-tolerant ETL workflows on AWS Step Functions, migrating 6000+ Oracle database objects into Snowflake.",
       "Shipped a Django app for real-time monitoring of 50+ distributed workflows across AWS and Snowflake.",
