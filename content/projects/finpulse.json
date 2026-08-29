@@ -1,0 +1,16 @@
+{
+  "name": "FinPulse",
+  "sub": "MLOps inference platform",
+  "meta": "2025 · MLOps",
+  "short": "Containerized ML inference pipeline with experiment tracking, artifact management, and production monitoring.",
+  "full": "Containerized ML inference pipeline: FastAPI serving on Kubernetes, Ray for distributed compute, MLflow experiment tracking, MinIO artifact storage, Label Studio annotation, and Prometheus + Grafana monitoring.",
+  "stack": [
+    "Ray",
+    "MLflow",
+    "Kubernetes",
+    "Prometheus",
+    "Grafana"
+  ],
+  "url": "https://github.com/DotBion/fluffy-fishstick",
+  "kind": "github"
+}

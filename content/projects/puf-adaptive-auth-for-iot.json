@@ -1,0 +1,15 @@
+{
+  "name": "PUF Adaptive Auth for IoT",
+  "sub": "IIT Guwahati IoT Lab · protocol design",
+  "meta": "2022 · Security",
+  "short": "Three-phase adaptive authentication protocol using Physically Unclonable Functions to secure IoT devices like remote EV charging stations.",
+  "full": "A lightweight three-phase authentication protocol for resource-constrained IoT devices, built around Physically Unclonable Functions so device identity cannot be cloned and the PUF response is never transmitted directly. Pre-shared key exchange, enrollment, then authentication: the server issues a challenge and seed, the device returns a derived response, and the server verifies it. Default authentication skips encryption to stay fast; a threat score escalates to encrypted exchanges when replay or MITM activity is detected. Simulated end-to-end with a Python client (device/app) and server (control station), tested across legal-user, attacker, and high-threat scenarios.",
+  "stack": [
+    "Python",
+    "C++",
+    "PUF",
+    "Cryptography"
+  ],
+  "url": "https://github.com/DotBion/PUF_AAP_IOT",
+  "kind": "github"
+}

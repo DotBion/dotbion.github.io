@@ -23,4 +23,5 @@ Thumbs.db
 # Dependencies / build output (if tooling is added later)
 node_modules/
 dist/
+build/
 .wrangler/

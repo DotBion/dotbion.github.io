@@ -1,0 +1,15 @@
+{
+  "name": "Multimodal Brain MRI Report Generation",
+  "sub": "Vision-language for radiology",
+  "meta": "2025 · Applied research",
+  "short": "Vision-language pipelines for MRI/CT report generation with MedGemma, DenseNet encoders, and LoRA fine-tuning.",
+  "full": "Vision-language pipelines for MRI/CT report generation with MedGemma, DenseNet encoders, and LoRA fine-tuning — +7% BLEU-4 with RadGraph-E and GREEN gains over a Qwen baseline. Trained on IBM Cloud Pak infrastructure.",
+  "stack": [
+    "PyTorch",
+    "MedGemma",
+    "LoRA",
+    "IBM Cloud Pak"
+  ],
+  "url": "",
+  "kind": "none"
+}

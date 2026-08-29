@@ -1,0 +1,61 @@
+[
+  {
+    "dates": "Jun 2025 — May 2026",
+    "company": "NYU IT",
+    "badge": "Internship",
+    "location": "New York, NY",
+    "role": "Software Engineering Intern",
+    "highlights": [
+      "Designed fault-tolerant ETL workflows on AWS Step Functions, migrating 6000+ Oracle database objects into Snowflake.",
+      "Shipped a Django app for real-time monitoring of 50+ distributed workflows across AWS and Snowflake.",
+      "Automated Python data validation for Oracle→Snowflake migrations, saving 10+ hours/week of manual verification.",
+      "Cut infrastructure maintenance costs 9% with a server-log analytics dashboard on Snowflake + Oracle Analytics Cloud."
+    ]
+  },
+  {
+    "dates": "May — Aug 2025",
+    "company": "Center for Advanced Imaging Innovation & Research",
+    "badge": "Research",
+    "location": "New York, NY",
+    "role": "Machine Learning Research Intern",
+    "highlights": [
+      "Developed and optimized a PyTorch transformer for dMRI reconstruction and fiber-orientation estimation, reducing MAE by 23%."
+    ]
+  },
+  {
+    "dates": "Jun 2023 — May 2024",
+    "company": "IIT Kharagpur · CV & HCI Lab",
+    "badge": "Research",
+    "location": "Kharagpur, IN",
+    "role": "Senior Research Fellow",
+    "highlights": [
+      "Led a team of 5 interns building a full-stack biometric authentication and access management application.",
+      "Built a high-throughput fingerprint image processing system with Python + OpenCV, cutting profiling time 62%.",
+      "Optimized ML training pipelines for K400, UCF101, and HMDB51, improving compute efficiency 16%.",
+      "Designed a scalable MongoDB schema for biometric metadata and feature storage."
+    ]
+  },
+  {
+    "dates": "Apr 2022 — Mar 2023",
+    "company": "IIT Guwahati · IoT Lab",
+    "badge": "Research",
+    "location": "Guwahati, IN",
+    "role": "Junior Research Fellow (GATE)",
+    "highlights": [
+      "Engineered a secure adaptive authentication protocol for IoT grid-connected systems (Python, C++), mitigating MiTM attacks in embedded power-electronic environments."
+    ]
+  },
+  {
+    "dates": "Jul 2019 — Apr 2021",
+    "company": "Tata Consultancy Services · JetBlue, TCSion",
+    "badge": "Full-time",
+    "location": "Pune, IN",
+    "role": "Software Developer",
+    "highlights": [
+      "Built backend services and APIs for a cloud video-conferencing product (Java, Node.js, WebSockets, MySQL, WebRTC).",
+      "Owned collaborative whiteboard features — screen sharing, file downloads, session recording — in Angular + TypeScript.",
+      "Launched a broadcasting platform supporting 10,000+ concurrent users with <2% streaming failure rates.",
+      "Automated performance testing of web services, increasing testing efficiency 40%."
+    ]
+  }
+]

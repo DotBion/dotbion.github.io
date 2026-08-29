@@ -3,9 +3,9 @@
 # Extract the RESUME string the design embeds in index.html and write it out as
 # the Worker's Markdown knowledge base.
 #
-# The Worker keeps its own copy so that /api/chat never trusts a client-supplied
-# system prompt. That copy goes stale whenever the resume is edited in Claude
-# Design — re-run this after any such change.
+# Prefer: node scripts/build.mjs  (generates knowledge from content/ — single
+# source of truth). Use this script only for legacy one-off extraction from a
+# hand-edited bundle before content/ exists.
 #
 # NOTE: this OVERWRITES knowledge/resume.md. Once you start hand-editing that
 # file (adding an FAQ, project detail, tone notes), stop running this script or

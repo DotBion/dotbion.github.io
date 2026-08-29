@@ -1,0 +1,15 @@
+{
+  "name": "Agent-007",
+  "sub": "Agentic LLM CTF Solver",
+  "meta": "2025 · Agentic AI",
+  "short": "Autonomous agent solving security CTF challenges (9/10 solve rate) via observe–reason–act loops, tool calling, and MCP.",
+  "full": "Autonomous agent solving security CTF challenges with a 9/10 solve rate. Observe–reason–act loops with tool calling and MCP servers, orchestrated across Claude Code, Codex, and Kiro.",
+  "stack": [
+    "Claude Code",
+    "Codex",
+    "Kiro",
+    "MCP"
+  ],
+  "url": "https://github.com/DotBion/mlcybersec",
+  "kind": "github"
+}

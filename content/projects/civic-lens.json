@@ -1,0 +1,15 @@
+{
+  "name": "Civic Lens",
+  "sub": "Multi-agent civic data system",
+  "meta": "2025 · Agentic AI",
+  "short": "Multi-agent AI system on NYC Open Data that accelerated city-council campaign drafting ~12×.",
+  "full": "Multi-agent AI system over NYC Open Data (Socrata) that researches districts and drafts city-council campaign material — roughly 12× faster than the manual workflow. Built on Gemini 2.5 and deployed to GCP.",
+  "stack": [
+    "Gemini 2.5",
+    "Socrata",
+    "GCP",
+    "NYC Open Data"
+  ],
+  "url": "https://github.com/DotBion/civic_lens",
+  "kind": "github"
+}

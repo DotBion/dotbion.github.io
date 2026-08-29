@@ -1,0 +1,15 @@
+{
+  "name": "QuStoch",
+  "sub": "Quantum Monte Carlo for markets",
+  "meta": "2025 · HackNYU — Fintech winner",
+  "short": "Encodes Brownian-motion stock price paths into qubits so superposition evaluates many market trajectories at once.",
+  "full": "Encodes Brownian-motion stock price paths into qubits using Hadamard and controlled-rotation gates, letting quantum superposition evaluate many market trajectories in parallel instead of classical Monte Carlo’s sequential sampling. Quantum-generated results are calibrated against historical data and rendered live in a Flask dashboard. Won the Fintech track at HackNYU.",
+  "stack": [
+    "Quantum Circuits",
+    "Python",
+    "Flask",
+    "Matplotlib"
+  ],
+  "url": "https://github.com/matt2jog/QuStoch",
+  "kind": "github"
+}

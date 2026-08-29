@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "extract": "node scripts/extract-content.mjs",
+    "build": "node scripts/build.mjs"
+  }
+}

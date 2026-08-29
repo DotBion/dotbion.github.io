@@ -1,0 +1,14 @@
+{
+  "name": "Voice Summary",
+  "sub": "Heptagraph · audio → insight",
+  "meta": "2024 · NLP",
+  "short": "Audio to structured insights: Whisper transcription with LLM summarization and structured outputs.",
+  "full": "Audio to structured insights pipeline: Whisper transcription feeding LLM summarization with schema-constrained structured outputs for downstream analysis.",
+  "stack": [
+    "Whisper",
+    "LLM",
+    "Python"
+  ],
+  "url": "https://github.com/DotBion/Heptagraph_Tandon",
+  "kind": "github"
+}

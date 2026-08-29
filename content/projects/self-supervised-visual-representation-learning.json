@@ -1,0 +1,16 @@
+{
+  "name": "Self-Supervised Visual Representation Learning",
+  "sub": "Deep Learning capstone — Yann LeCun",
+  "meta": "2025 · Kaggle competition",
+  "short": "Capstone for Yann LeCun’s Fall 2025 Deep Learning course — self-supervised pretraining from 500k unlabeled images.",
+  "full": "Capstone for Yann LeCun’s Fall 2025 Deep Learning course. From 500k unlabeled images and no pretrained weights: explored DINOv2, hit severe compute limits (4 hrs/epoch), then pivoted to MoCo v3 (ViT-Small, 42.84M params) for a 12× speedup. Ablations across k-NN vs. linear probe, LR sweeps, and training duration led to domain-specific warm-starting on NABirds — CUB-200 36.65% (+27%), Mini-ImageNet 54.58%, SUN397 28.07%.",
+  "stack": [
+    "MoCo v3",
+    "ViT-Small",
+    "PyTorch",
+    "InfoNCE",
+    "Linear Probe"
+  ],
+  "url": "https://www.kaggle.com/competitions/fall-2025-deep-learning-final-competition/leaderboard",
+  "kind": "kaggle"
+}
